@@ -21,7 +21,7 @@ Vue.use(VueRouter)
 
 const routes = [
     ...beautyplugRouter,
-    foundRouter,
+    ...foundRouter,
     myRouter,
     orderRouter,
     {path:'/',redirect:"/beautyplug"}
