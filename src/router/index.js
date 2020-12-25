@@ -22,7 +22,7 @@ Vue.use(VueRouter)
 const routes = [
     ...beautyplugRouter,
     foundRouter,
-    myRouter,
+    ...myRouter,
     orderRouter,
     {path:'/',redirect:"/beautyplug"}
   
