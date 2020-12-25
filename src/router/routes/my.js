@@ -1,10 +1,11 @@
-import My from '@/views/My/My'
+import My from '@/views/My/My';
+import Login from '@/views/My/Login';
 
 
-var myRouter ={
-        path:"/my",
-        component:My,
-};
+var myRouter =[
+       { path:"/my",component:My},
+       {path:"/login",component:Login}
+];
    
 
 
