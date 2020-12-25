@@ -19,7 +19,7 @@
 
 import Vue from 'vue';
 import { Loading,Sticky } from 'vant';
-import uri from '@/config/url'
+import uri from '@/config/url';
 Vue.use(Sticky);
 Vue.use(Loading);
 export default {
